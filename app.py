@@ -9,7 +9,7 @@ with open('kmeans_model.pkl', 'rb') as f:
 
 st.set_page_config(page_title="k-means Clustering ", layout="centered")
 
-st.title("k-means Clustering Visualizer by Phattharajin Joyjaroen")
+st.title("k-means Clustering Visualizer by Boonnisa")
 
 # Generate example data
 X, _ = make_blobs(n_samples=300, centers=loaded_model.n_clusters, cluster_std=0.60, random_state=0)
